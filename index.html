@@ -22,18 +22,6 @@
     overflow: hidden;
   }
 
-  body::before {
-    content: '';
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 600px;
-    height: 600px;
-    background: radial-gradient(circle, rgba(59,224,224,0.12) 0%, rgba(214,90,201,0.08) 40%, transparent 70%);
-    pointer-events: none;
-  }
-
   .card {
     position: relative;
     z-index: 1;
@@ -47,7 +35,6 @@
     height: auto;
     margin: 0 auto 36px;
     display: block;
-    filter: drop-shadow(0 0 22px rgba(59,224,224,0.18));
   }
 
   .links {
@@ -102,7 +89,7 @@
       <a class="link-btn ig" href="https://www.instagram.com/desi.flakes_" target="_blank" rel="noopener">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="#E84393" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#E84393"/></svg>
         <span class="label">Instagram<span class="sub">@desi.flakes_</span></span>
-        <span class="arrow">→</span>
+        <span class="arrow" style="color:#E84393;">→</span>
       </a>
 
       <a class="link-btn tt" href="https://www.tiktok.com/@desi.flakes" target="_blank" rel="noopener">
